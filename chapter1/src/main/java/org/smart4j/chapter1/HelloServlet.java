@@ -17,6 +17,7 @@ import java.util.Date;
 public class HelloServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //测试
         DateFormat df = new SimpleDateFormat("yyyyMMdd");
         String date = df.format(new Date());
         req.setAttribute("date",date);
