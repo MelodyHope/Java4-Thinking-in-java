@@ -7,6 +7,6 @@ import test.Father;
  */
 public class Son2 extends Father{
     protected void f(){
-        super.f();
+        super.f();//编译报错，不加protected关键字就无法从包外访问
     }
 }
