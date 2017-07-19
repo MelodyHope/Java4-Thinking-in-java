@@ -6,9 +6,12 @@ package test;
 public class Son1 extends Father {
     public Son1(int i) {
         super(i);
+        System.out.println("constructor son1");
     }
 
+    @Override
     void f(){
+        System.out.println("son1");
         super.f();
     }
 }

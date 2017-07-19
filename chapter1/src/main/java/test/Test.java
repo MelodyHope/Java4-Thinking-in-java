@@ -251,4 +251,9 @@ public class Test {
 //        ch[0] = 'g';
 //
 //    }
+
+    public static void main(String[] args){
+        Father a = new Son1(1);
+        a.f();
+    }
 }

@@ -10,6 +10,6 @@ public class Father {
     }
 
     void f(){
-        System.out.println("");
+        System.out.println("father");
     }
 }
