@@ -252,8 +252,16 @@ public class Test {
 //
 //    }
 
-    public static void main(String[] args){
-        Father a = new Son1(1);
-        a.f();
-    }
+//    public static void main(String[] args){
+//        Father a = new Son1(1);
+//        a.f();
+//    }
+
+//    final static int i = 0;
+//
+//    final Son1 a;//必须初始化，否则编译报错
+//
+//    public static void main(String[] args){
+////        i+=1;//无法修改final修饰的域
+//    }
 }
