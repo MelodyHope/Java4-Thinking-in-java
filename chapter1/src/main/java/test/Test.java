@@ -184,8 +184,71 @@ public class Test {
 //        }
 //    }
 
-    public static void main(String[] args){
-        Ab x = new Ab();
-    }
+//    public static void main(String[] args){
+//        Abc a = new Abc();
+//        String s = a.func();
+//        System.out.println(""+s);
+//        Abcd ab = new Abcd();
+//        int i = ab.func();
+//        System.out.println(""+i);
+//        try {
+//            System.out.println("try");
+//            return;//即使return了还是会执行finally里面的代码
+//        }finally {
+//            System.out.println("finally");
+//        }
+//    }
+//
+//}
+//
+//class Abc{
+//    public String func(){
+//        String a = "abc";
+//        try{
+//            System.out.println("try");
+//            return a;
+//        }finally {
+//            System.out.println("finally");
+//            a = "b";
+//        }
+////        return a;
+//    }
+//}
+//
+//class Abcd{
+//    public int func(){
+//        int a = 10;
+//        try{
+//            System.out.println("try");
+//            return a;
+//        }finally {
+//            System.out.println("finally");
+//            a = 20;
+//        }
+////        return a;
+//    }
 
+//    StringBuffer str = new StringBuffer("good");
+//
+//    char[] ch = { 'a', 'b', 'c' };
+//
+//    public static void main(String args[]) {
+//
+//        Test ex = new Test();
+//
+//        ex.change(ex.str, ex.ch);
+//
+//        System.out.print(ex.str + " and ");
+//
+//        System.out.print(ex.ch);
+//
+//    }
+//
+//    public void change(StringBuffer str, char ch[]) {
+//
+//        str = str.append("adc");
+//
+//        ch[0] = 'g';
+//
+//    }
 }
