@@ -259,9 +259,36 @@ public class Test {
 
 //    final static int i = 0;
 //
-//    final Son1 a;//必须初始化，否则编译报错
+//    final Son1 a;//必须初始化，否则编译报错：可以直接初始化或者在构造器中初始化
+//
+////    public Test() {
+////        a = null;
+////    }
 //
 //    public static void main(String[] args){
 ////        i+=1;//无法修改final修饰的域
 //    }
+
+//    public static void main(String[] args){
+//        try {
+//            System.out.println(ClassLoader.getSystemClassLoader());
+//            System.out.println(ClassLoader.getSystemClassLoader().getParent());
+//            System.out.println(ClassLoader.getSystemClassLoader().getParent().getParent());
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
+
+    static void func(Father father){
+        System.out.println("father");
+        System.out.println(""+father.getClass().toString());
+    }
+
+    public static void main(String[] args){
+        Father f =new Father(2);
+        func(f);
+        Father s = new Son1(1);
+//        Son1 s = new Son1(1);
+        func(s);
+    }
 }
