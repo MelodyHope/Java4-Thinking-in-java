@@ -1,5 +1,8 @@
 package test;
 
+import java.util.function.Consumer;
+import java.util.function.Function;
+
 /**
  * Created by hspcadmin on 2017/7/17.
  */
@@ -279,16 +282,37 @@ public class Test {
 //        }
 //    }
 
-    static void func(Father father){
-        System.out.println("father");
-        System.out.println(""+father.getClass().toString());
-    }
+//    static void func(Father father){
+//        System.out.println("father");
+//        System.out.println(""+father.getClass().toString());
+//    }
+//
+//    public static void main(String[] args){
+//        Father f =new Father(2);
+//        func(f);
+//        Father s = new Son1(1);
+////        Son1 s = new Son1(1);
+//        func(s);
+//    }
 
-    public static void main(String[] args){
-        Father f =new Father(2);
-        func(f);
-        Father s = new Son1(1);
-//        Son1 s = new Son1(1);
-        func(s);
-    }
+//    @FunctionalInterface
+//    interface Consumer<Integer>{
+//    void accept(Integer i);
+//}
+
+//    //java.util.function包
+//    public static void donation(Integer money, Consumer<Integer> consumer){
+//        consumer.accept(money);
+//    }
+//
+//    public static Integer apply(String str, Function<String, Integer> function){
+//        return function.apply(str);
+//    }
+//
+//    public static void main(String[] args) {
+//        donation(1000, money -> System.out.println("好心的麦乐迪为Blade捐赠了"+money+"元")) ;
+//        Integer i = apply("100", x -> Integer.parseInt(x));
+//        System.out.println(""+i);
+//    }
+
 }
