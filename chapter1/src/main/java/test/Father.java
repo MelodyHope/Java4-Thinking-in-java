@@ -9,7 +9,7 @@ public class Father {
         System.out.println("construnctor father");
     }
 
-    void f(){
+    public void f(){
         System.out.println("father");
     }
 }

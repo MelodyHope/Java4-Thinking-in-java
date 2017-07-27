@@ -315,4 +315,8 @@ public class Test {
 //        System.out.println(""+i);
 //    }
 
+    public static void main(String[] args){
+        FatherInter s = new Son1(1);//用FatherInter接口声明变量也能调到Father父类中的方法
+        s.f();
+    }
 }
