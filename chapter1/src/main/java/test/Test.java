@@ -315,8 +315,21 @@ public class Test {
 //        System.out.println(""+i);
 //    }
 
-    public static void main(String[] args){
-        FatherInter s = new Son1(1);//用FatherInter接口声明变量也能调到Father父类中的方法
-        s.f();
-    }
+//    public static void main(String[] args){
+//        FatherInter s = new Son1(1);//用FatherInter接口声明变量也能调到Father父类中的方法
+//        s.f();
+//    }
+
+//    class inner{
+//        public void func(){
+//            System.out.println("inner");
+//        }
+//    }
+//
+//    public static void main(String[] args){
+//        Test t = new Test();
+//        Test.inner in= t.new inner();
+//        in.func();
+//    }
+
 }
